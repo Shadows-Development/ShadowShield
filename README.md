@@ -17,6 +17,9 @@ Designed for secure applications, internal tools, or microservices — it's a pe
 - 🧩 Modular structure with routes, middleware, and utilities  
 - ✨ TypeScript with clean DX setup
 
+> 💡 **Note:** ShadowVault does not include a database layer by default.  
+> This gives you full control to implement your own storage solution using PostgreSQL, MongoDB, Firebase, or any other database of your choice.
+
 ---
 
 ## 🗂 Project Structure
@@ -25,6 +28,8 @@ Designed for secure applications, internal tools, or microservices — it's a pe
 src/
 ├── routes/
 │   └── auth.ts
+├── services/
+│   └── userService.ts
 ├── middleware/
 │   ├── auth.ts
 │   ├── logger.ts
@@ -79,8 +84,6 @@ src/
 - `GET /user/profile` — protected route, requires valid token
 
 ---
-
-## 📄 License
 
 ## 📄 License
 
