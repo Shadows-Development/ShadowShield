@@ -1,6 +1,6 @@
-# 🔐 ShadowVault
+# 🔐 ShadowShield
 
-**ShadowVault** is a security-first REST API starter built with Express.js and TypeScript.  
+**ShadowShield** is a security-first REST API starter built with Express.js and TypeScript.  
 Designed for secure applications, internal tools, or microservices — it's a perfect starting point for projects that need **JWT authentication**, **rate limiting**, and **clean modular architecture**.
 
 ---
@@ -17,7 +17,7 @@ Designed for secure applications, internal tools, or microservices — it's a pe
 - 🧩 Modular structure with routes, middleware, and utilities  
 - ✨ TypeScript with clean DX setup
 
-> 💡 **Note:** ShadowVault does not include a database layer by default.  
+> 💡 **Note:** ShadowShield does not include a database layer by default.  
 > This gives you full control to implement your own storage solution using PostgreSQL, MongoDB, Firebase, or any other database of your choice.
 
 ---
@@ -47,8 +47,8 @@ src/
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/GreyDevOps/shadowvault.git
-   cd shadowvault
+   git clone https://github.com/GreyDevOps/ShadowShield.git
+   cd ShadowShield
    ```
 
 2. Install dependencies  
